@@ -2,6 +2,9 @@
 	background-color: #131921;
 	display: flex;
 	align-items: center;
+	position: sticky;
+	top: 0;
+	z-index: 100;
 }
 .header__logo {
 	width: 100px;
@@ -24,6 +27,32 @@
 	width: 100%;
 	border: none;
 }
-Link {
+.header__nav {
+	display: flex;
+	justify-content: space-evenly;
+}
+.header__link {
+	text-decoration: none;
 	color: white;
+}
+.header__option {
+	display: flex;
+	flex-direction: column;
+	margin: 0 10px 0 10px;
+}
+.header__optionOne {
+	font-size: 10px;
+}
+.header__optionTwo {
+	font-size: 13px;
+	font-weight: 800;
+}
+.header__optionBasket {
+	color: white;
+	margin: 0 10px 0 10px;
+	display: flex;
+	/* font-weight: 800; */
+}
+.header__basketCount {
+	margin: 0 10px 0 10px;
 }

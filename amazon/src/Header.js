@@ -24,15 +24,30 @@ function Header() {
 			</div>
 			{/* 3 clickable links */}
 			<div className="header__nav">
-				<Link className="header__signIn">
+				<Link to="/login" className="header__link">
 					<div className="header__option">
-						<span>Hello, Mosae</span>
-						<span>Sign In</span>
+						<span className="header__optionOne">Hello, Mosae</span>
+						<span className="header__optionTwo">Sign In</span>
 					</div>
 				</Link>
-				<Link className="header__returnsOrders">Returns & Orders</Link>
-				<Link className="header__prime">Prime</Link>
-				<AddShoppingCartIcon className="header__cartIcon" />
+				<Link to="/login" className="header__link">
+					<div className="header__option">
+						<span className="header__optionOne">Returns</span>
+						<span className="header__optionTwo">& Orders</span>
+					</div>
+				</Link>
+				<Link to="/login" className="header__link">
+					<div className="header__option">
+						<span className="header__optionOne">Your</span>
+						<span className="header__optionTwo">Prime</span>
+					</div>
+				</Link>
+				<Link to="/checkout">
+					<div className="header__optionBasket">
+						<AddShoppingCartIcon className="header__cartIcon" />
+						<span className="header__optionTwo header__basketCount">0</span>
+					</div>
+				</Link>
 			</div>
 			{/* cart icon with number */}
 		</nav>
