@@ -13,20 +13,20 @@ function Home() {
 			<div className="home__row">
 				<Products
 					id="1234"
-					title="winter-jacket"
+					title="Sony WHXB900N Noise Cancelling Headphones, Wireless Bluetooth Over the Ear Headset - Blue (Amazon Exclusive)"
 					price={49.99}
 					rating={5}
 					image="https://images-na.ssl-images-amazon.com/images/G/01/omaha/images/merch/2020/WFM/Monthly/October/AMZ/SingleCategoryCard/WFM_20OctPizza__gw_flexible_desktop_cat_card_2x._SY608_CB403135279_.jpg"
 				/>
 				<Products
-					id="1234"
-					title="winter-jacket"
-					price={49.99}
+					id="12345"
+					title="Sony WHXB900N Noise Cancelling Headphones, Wireless Bluetooth Over the Ear Headset - Blue (Amazon Exclusive)"
+					price={248.0}
 					rating={5}
 					image="https://m.media-amazon.com/images/I/816QIo27ASL._AC_SY400_.jpg"
 				/>
 				<Products
-					id="1234"
+					id="12346"
 					title="winter-jacket"
 					price={49.99}
 					rating={5}
@@ -35,14 +35,14 @@ function Home() {
 			</div>
 			<div className="home__row">
 				<Products
-					id="1234"
-					title="winter-jacket"
-					price={49.99}
-					rating={5}
+					id="12347"
+					title="Carhartt Boys' Active Jac Quilt Lined Jacket Coat"
+					price={54.99}
+					rating={4}
 					image="https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2020/journeys/OTNmN2UyY2Yt/OTNmN2UyY2Yt-ZDc2OGNjOTYt-w758._SY608_CB418717995_.jpg"
 				/>
 				<Products
-					id="1234"
+					id="12348"
 					title="winter-jacket"
 					price={49.99}
 					rating={5}
@@ -51,7 +51,7 @@ function Home() {
 			</div>
 			<div className="home__row">
 				<Products
-					id="1234"
+					id="12349"
 					title="winter-jacket"
 					price={49.99}
 					rating={5}
