@@ -13,8 +13,8 @@ function Home() {
 			<div className="home__row">
 				<Products
 					id="1234"
-					title="Sony WHXB900N Noise Cancelling Headphones, Wireless Bluetooth Over the Ear Headset - Blue (Amazon Exclusive)"
-					price={49.99}
+					title="50% off pizza"
+					price={15.99}
 					rating={5}
 					image="https://images-na.ssl-images-amazon.com/images/G/01/omaha/images/merch/2020/WFM/Monthly/October/AMZ/SingleCategoryCard/WFM_20OctPizza__gw_flexible_desktop_cat_card_2x._SY608_CB403135279_.jpg"
 				/>
@@ -22,14 +22,14 @@ function Home() {
 					id="12345"
 					title="Sony WHXB900N Noise Cancelling Headphones, Wireless Bluetooth Over the Ear Headset - Blue (Amazon Exclusive)"
 					price={248.0}
-					rating={5}
+					rating={4}
 					image="https://m.media-amazon.com/images/I/816QIo27ASL._AC_SY400_.jpg"
 				/>
 				<Products
 					id="12346"
-					title="winter-jacket"
+					title="Work-out bench"
 					price={49.99}
-					rating={5}
+					rating={3}
 					image="https://images-na.ssl-images-amazon.com/images/I/41reZWgo4AL._AC_SY400_.jpg"
 				/>
 			</div>
@@ -43,19 +43,19 @@ function Home() {
 				/>
 				<Products
 					id="12348"
-					title="winter-jacket"
-					price={49.99}
-					rating={5}
+					title="Greenlights Audible Audiobook – Unabridged"
+					price={24.5}
+					rating={4}
 					image="https://m.media-amazon.com/images/I/5171iSlU5+L._AC_SY200_.jpg"
 				/>
 			</div>
 			<div className="home__row">
 				<Products
 					id="12349"
-					title="winter-jacket"
-					price={49.99}
-					rating={5}
-					image="https://images-na.ssl-images-amazon.com/images/G/01/US-hq/2020/img/Beauty_Luxury_/XCM_CUTTLE_1270467_1388218_US_GH20_3400207_758x608_2X_en_US._SY608_CB402658713_.jpg"
+					title="Garmin fēnix 5s, Premium and Rugged Smaller-Sized Multisport GPS Smartwatch, Silver/Black"
+					price={249.99}
+					rating={3}
+					image="https://m.media-amazon.com/images/I/412bWTV7ezL._AC_SY480_.jpg"
 				/>
 			</div>
 		</div>
