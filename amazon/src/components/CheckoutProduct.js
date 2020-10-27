@@ -8,9 +8,8 @@ function CheckoutProduct({ id, title, price, rating, image }) {
 		//Add item to basket
 		dispatch({
 			type: 'REMOVE_FROM_BASKET',
-			item: {
-				id: id,
-			},
+
+			id: id,
 		});
 	};
 	return (
