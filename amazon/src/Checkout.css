@@ -3,8 +3,17 @@
 	margin-bottom: 5%;
 }
 .checkout__title {
+	margin-right: 10px;
+	padding: 10px;
+	border-bottom: 1px solid lightgray;
 }
 .return__to__shop {
 	background-color: #f2c967;
 	border: 1px solid #a88734 #9c7e31 #846a29;
+}
+.checkout {
+	display: flex;
+	padding: 20px;
+	background-color: white;
+	height: max-content;
 }
