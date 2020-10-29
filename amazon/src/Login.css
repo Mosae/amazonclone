@@ -1,0 +1,9 @@
+.login {
+	display: flex;
+	justify-content: center;
+}
+.login > img {
+	width: 40%;
+	max-height: 130px;
+	max-width: 130px;
+}

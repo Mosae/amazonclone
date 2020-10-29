@@ -21,8 +21,6 @@ function CheckoutProduct({ id, title, price, rating, image }) {
 					<small>$</small>
 					<strong>{price}</strong>
 				</p>
-
-				{rating}
 				<div className="product__rating">
 					{Array(rating)
 						.fill()

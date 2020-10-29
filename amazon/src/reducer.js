@@ -7,7 +7,6 @@ export const initialState = {
 			rating: 4,
 			image: 'https://m.media-amazon.com/images/I/71mCp6pYe4L._AC_AA360_.jpg',
 		},
-
 		{
 			id: '12345678',
 			title: 'ClosetMaid 1312 4-Tier Wood Ladder Shelf Bookcase, Natural',
