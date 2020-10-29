@@ -3,7 +3,7 @@ import '../Checkout.css';
 import { useStateValue } from './StateProvider';
 import Products from './Products';
 import CheckoutProduct from './CheckoutProduct';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+
 import Subtotal from './Subtotal';
 
 function Checkout() {
@@ -27,7 +27,7 @@ function Checkout() {
 					</div>
 				) : (
 					<div>
-						<h2 className="checkout__title">Your Shopping Basket</h2>
+						<h2 className="checkout__title">Your Shopping Basket </h2>
 						{basket.map((item) => (
 							<CheckoutProduct
 								id={item.id}
