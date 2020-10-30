@@ -1,9 +1,12 @@
-.login {
+/* .login {
 	display: flex;
 	justify-content: center;
+} */
+.login__logo {
+	width: 100px;
+	object-fit: contain;
 }
-.login > img {
-	width: 40%;
-	max-height: 130px;
-	max-width: 130px;
+.sign__in__button {
+	background-color: #f2c967;
+	border: 1px solid #a88734 #9c7e31 #846a29;
 }
