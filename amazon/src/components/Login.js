@@ -15,18 +15,21 @@ function Login() {
 				<h1>Sign In</h1>
 				<form>
 					<h5>E-mail</h5>
-					<input type="text" />
+					<input type="email" />
 					<h5>Password</h5>
 					<input type="password" />
-					<button className="sign__in__button ">Sign in</button>
+					<button onClick={login} type="submit" className="login__signInButton">
+						Sign in
+					</button>
 					<p>
 						By continuing, you agree to Amazon's Conditions of Use and Privacy
 						Notice.
 					</p>
 				</form>
-				<hr />
 				New to Amazon?
-				<button>Create your Amazon account</button>
+				<button onClick={register} className="login__registerButton">
+					Create your Amazon account
+				</button>
 			</div>
 		</div>
 	);
