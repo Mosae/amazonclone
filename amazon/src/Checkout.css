@@ -7,7 +7,7 @@
 	padding: 10px;
 	border-bottom: 1px solid lightgray;
 }
-.return__to__shop {
+.return__to__shop > button {
 	background-color: #f2c967;
 	border: 1px solid #a88734 #9c7e31 #846a29;
 }
