@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link, useHistory } from 'react-router-dom';
 import '../Checkout.css';
 import { useStateValue } from './StateProvider';
 import Products from './Products';
@@ -21,9 +22,9 @@ function Checkout() {
 					<div>
 						{' '}
 						<h2>Your Amazon Cart is empty</h2>
-						<button onClick={<Products />} className="return__to__shop">
-							Return to Shopping
-						</button>
+						<Link to="/" className="return__to__shop">
+							<button>Return to Shopping</button>
+						</Link>
 					</div>
 				) : (
 					<div>
