@@ -1,20 +1,6 @@
 export const initialState = {
-	basket: [
-		{
-			id: '12345678',
-			title: 'ClosetMaid 1312 4-Tier Wood Ladder Shelf Bookcase, Natural',
-			price: 59.99,
-			rating: 4,
-			image: 'https://m.media-amazon.com/images/I/71mCp6pYe4L._AC_AA360_.jpg',
-		},
-		{
-			id: '12345678',
-			title: 'ClosetMaid 1312 4-Tier Wood Ladder Shelf Bookcase, Natural',
-			price: 59.99,
-			rating: 4,
-			image: 'https://m.media-amazon.com/images/I/71mCp6pYe4L._AC_AA360_.jpg',
-		},
-	],
+	basket: [],
+	user: null,
 };
 
 export const getBasketTotal = (basket) =>
@@ -22,6 +8,11 @@ export const getBasketTotal = (basket) =>
 
 const reducer = (state, action) => {
 	switch (action.type) {
+		case 'SET_USER':
+			return {
+				...state,
+				user: action.user,
+			};
 		case 'ADD_TO_BASKET':
 			return { ...state, basket: [...state.basket, action.item] };
 
