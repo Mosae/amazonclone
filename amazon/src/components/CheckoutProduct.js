@@ -1,8 +1,10 @@
 import React from 'react';
 import '../CheckoutProduct.css';
+import { useHistory } from 'react-router-dom';
 import { useStateValue } from './StateProvider';
 function CheckoutProduct({ id, title, price, rating, image }) {
-	const [{ basket }, dispatch] = useStateValue();
+	const [{ basket, user }, dispatch] = useStateValue();
+	const history = useHistory();
 	const RemoveFromBasket = () => {
 		//Add item to basket
 		dispatch({
@@ -10,6 +12,10 @@ function CheckoutProduct({ id, title, price, rating, image }) {
 
 			id: id,
 		});
+	};
+	const routeChange = () => {
+		let path = '/login';
+		history.push(path);
 	};
 	return (
 		<div className="checkoutProduct">
@@ -28,7 +34,9 @@ function CheckoutProduct({ id, title, price, rating, image }) {
 							<p>⭐️</p>
 						))}
 				</div>
-				<button onClick={RemoveFromBasket}>Remove from cart</button>
+				<button onClick={user ? RemoveFromBasket : routeChange}>
+					Remove from cart
+				</button>
 			</div>
 		</div>
 	);
