@@ -42,19 +42,19 @@ function Header() {
 						</span>
 					</div>
 				</Link>
-				<Link to="/login" className="header__link">
+				<Link to={!user && '/login'} className="header__link">
 					<div className="header__option">
 						<span className="header__optionOne">Returns</span>
 						<span className="header__optionTwo">& Orders</span>
 					</div>
 				</Link>
-				<Link to="/login" className="header__link">
+				<Link to={!user && '/login'} className="header__link">
 					<div className="header__option">
 						<span className="header__optionOne">Your</span>
 						<span className="header__optionTwo">Prime</span>
 					</div>
 				</Link>
-				<Link to="/checkout">
+				<Link to={user ? '/checkout' : '/login'}>
 					<div className="header__optionBasket">
 						<AddShoppingCartIcon className="header__cartIcon" />
 						<span className="header__optionTwo header__basketCount">
