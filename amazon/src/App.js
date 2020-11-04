@@ -4,6 +4,7 @@ import './App.css';
 import Header from './Header';
 import Home from './components/Home';
 import Login from './components/Login';
+import Footer from './components/Footer';
 import Checkout from './components/Checkout';
 import { useStateValue } from './components/StateProvider';
 import { auth } from './components/firebase';
@@ -47,6 +48,7 @@ function App() {
 					<Route path="/">
 						<Header />
 						<Home />
+						<Footer />
 					</Route>
 				</Switch>
 			</div>
