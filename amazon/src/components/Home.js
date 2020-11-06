@@ -13,10 +13,10 @@ function Home() {
 			<div className="home__row">
 				<Products
 					id="1234"
-					title="50% off pizza"
-					price={15.99}
+					title="Tangkula Golf PushCart Swivel Foldable 3 Wheel Push Pull Cart Golf Trolley with Seat Scoreboard Bag Golf Push Cart"
+					price={149.99}
 					rating={5}
-					image="https://images-na.ssl-images-amazon.com/images/G/01/omaha/images/merch/2020/WFM/Monthly/October/AMZ/SingleCategoryCard/WFM_20OctPizza__gw_flexible_desktop_cat_card_2x._SY608_CB403135279_.jpg"
+					image="https://images-na.ssl-images-amazon.com/images/I/61HE9YhgJeL._AC_SX679_.jpg"
 				/>
 				<Products
 					id="12345"
