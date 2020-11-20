@@ -1,2 +1,2 @@
 # amazonclone
-Amazon Clone
+Basic Amazon Clone usiing React and context api. 
